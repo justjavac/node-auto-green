@@ -1,0 +1,35 @@
+{
+  "name": "auto-green",
+  "version": "0.1.0",
+  "description": "自动保持 GitHub 提交状态常绿 a commit every day, keep your girlfriend far away.",
+  "license": "MIT",
+  "repository": "justjavac/node-auto-green",
+  "author": "justjavac",
+  "homepage": "https://github.com/justjavac/node-auto-green",
+  "bugs": "https://github.com/justjavac/node-auto-green/issues",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "engines": {
+    "node": "> 10.0.0"
+  },
+  "scripts": {
+    "lint": "prettier \"{**/*,*}.{js,json,md}\" --list-different",
+    "fmt": "prettier \"{**/*,*}.{js,json,md}\" --write"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@octokit/rest": "^18.5.3",
+    "debug": "^4.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1"
+  },
+  "keywords": [
+    "github",
+    "auto-green",
+    "auto-commit",
+    "git"
+  ]
+}
