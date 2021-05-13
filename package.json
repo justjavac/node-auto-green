@@ -1,6 +1,6 @@
 {
   "name": "auto-green",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "自动保持 GitHub 提交状态常绿 a commit every day, keep your girlfriend far away.",
   "license": "MIT",
   "repository": "justjavac/node-auto-green",
